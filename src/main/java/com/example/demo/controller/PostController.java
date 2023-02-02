@@ -1,11 +1,9 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
-import com.example.demo.Exception.PostNotFoundException;
-import com.example.demo.Exception.UserNotFoundException;
-import com.example.demo.Model.Post;
+import com.example.demo.exception.PostNotFoundException;
+import com.example.demo.model.Post;
 import com.example.demo.Repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
