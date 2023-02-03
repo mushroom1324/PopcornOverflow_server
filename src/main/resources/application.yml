@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/post_data
+    username: root
+    password: 13241324
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    com.tutorial: debug
+
+jwt:
+  secret: 68566D597133743677397A244226452948404D635166546A576E5A7234753778
